@@ -24,7 +24,7 @@ public class InvertedIndexClient{
 
             // Call the remote method with the filename
 
-            Map<String, List<Integer>> invertedIndex = service.getInvertedIndex("C:\\\\Users\\\\Dell\\\\Desktop\\\\Distributed Software\\\\Midterm\\\\distributed_system_Task2_rmi_multithreading_forkjoinpool\\\\src\\\\main\\\\resources\\\\sample_data.txt");
+            Map<String, List<Integer>> invertedIndex = service.getInvertedIndex("C:\\\\Users\\\\Dell\\\\Desktop\\\\Distributed Software\\\\Midterm\\\\distributed_system_Task2_rmi_multithreading_executor\\\\src\\\\main\\\\resources\\\\sample_data.txt");
             
             System.out.println("Inverted index ExecutorService:");
             
